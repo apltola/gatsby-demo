@@ -1,0 +1,46 @@
+.app-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.app-header {
+  padding-top: 20px;
+}
+
+.app-title {
+  font-weight: 900;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.app-nav ul {
+  display: flex;
+  flex-flow: row nowrap;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.app-nav li {
+  margin-right: 20px;
+  /* opacity: 0.7; */
+  color: #999999;
+  font-weight: 500;
+}
+
+.app-main {
+  flex: 1;
+  padding-top: 5vh;
+}
+
+.app-footer {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 5px;
+}

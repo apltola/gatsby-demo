@@ -1,0 +1,10 @@
+.post-header {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: baseline;
+}
+
+.post-date {
+  padding-left: 10px;
+  color: #999999;
+}
